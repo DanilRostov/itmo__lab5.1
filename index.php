@@ -12,7 +12,7 @@ if (isset($_GET['print'])) {
 };
 
 if (isset($_GET['author'])) {
-	echo('<h4 id="Danil Rostov" title="GossJS">Danil Rostov</h4>');
+	echo('<h4 id="author" title="GossJS">Danil Rostov</h4>');
 };
 
 if (isset($_GET['info'])) {
