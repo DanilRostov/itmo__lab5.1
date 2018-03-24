@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_GET['info'])) {
+if (isset($_GET['public'])) {
 	header('Access-Control-Allow-Origin: *');
 	header('Content-Type: text/plain; charset=utf-8');
 	header('Access-Control-Allow-Methods: GET,POST,DELETE');
